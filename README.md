@@ -75,7 +75,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ### Programs for arithmetic  operations
 ## Addition  of 8 bit ALP 
 ## Program
-~
+~~~
 name "ADDITION"
 org 300h
 MOV AX,05H;
@@ -84,7 +84,7 @@ ADD AX,BX;
 MOV CX,AX;
 MOV AX,00H;
 HLT;
-~
+~~~
 ## Output  
 ## Loading AX and BX register with the Numbers whose Addition has to be found :
 ![image](https://user-images.githubusercontent.com/94187572/189361984-d1e8059f-b60b-46f6-b362-18079452927c.png)
@@ -104,7 +104,7 @@ HLT;
 
 ## Subtraction   of 8 bit numbers  ALP 
 ## Program
-~
+~~~
 name "SUBTRACTION"
 org 300h
 MOV AX,06H;
@@ -113,7 +113,7 @@ SUB AX,BX;
 MOV CX,AX;
 MOV AH,00H;
 HLT;
-~
+~~~
 ## Output  
 ## Loading AX and BX register with the Numbers whose Subtraction has to be found :
 ![image](https://user-images.githubusercontent.com/94187572/189362911-241dcfbc-21fb-4bfa-9179-1d6bfd7f7e9a.png)
@@ -134,7 +134,7 @@ HLT;
 
 ## Multiplication alp 
 ## Program
-~
+~~~
 name "MULTIPLICATION"
 org 300h
 MOV AL,02H;
@@ -143,7 +143,7 @@ MUL BL;
 MOV CL,AL;
 MOV AL,00H;
 HLT;
-~
+~~~
 ## Output  
 ## Loading AL and BL register with the Numbers whose Multiplication has to be found :
 ![image](https://user-images.githubusercontent.com/94187572/189363634-666f4c60-17b6-4212-b50e-6fed5f0ff62a.png)
@@ -164,7 +164,7 @@ HLT;
 
 ## Division alp 
 ## Program
-~
+~~~
 name "DIVISION"
 org 300h
 MOV AL,20H;
@@ -173,7 +173,7 @@ DIV BL;
 MOV CL,AL;
 MOV AL,00H;
 HLT;
-~
+~~~
 ## Output  
 ## Loading AL and BL register with the Numbers whose Division has to be found :
 ![image](https://user-images.githubusercontent.com/94187572/189364780-e4132b9e-ba73-4366-9441-db67f0a0cf38.png)
